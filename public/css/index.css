@@ -1,0 +1,129 @@
+@media (max-width: 424px) {
+    /* Los estilos aquí contenidos solo se aplicarán desde
+    del tamaño de pantalla indicado */
+    #logo-image{
+        width: 90%;
+    }
+
+    .row div details summary{
+        font-size: 1rem !important;
+    }
+
+    .h3{
+        font-size: 1.5rem !important;
+    }
+
+}
+@media (min-width: 425px) {
+    /* Los estilos aquí contenidos solo se aplicarán a partir
+    del tamaño de pantalla indicado */
+    #logo-image{
+        width: 70%;
+    }
+
+    .row div details summary{
+        font-size: 1.2rem;
+    }
+
+    h3{
+        font-size: 1.75rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Los estilos aquí contenidos solo se aplicarán a partir
+    del tamaño de pantalla indicado */
+    #logo-image{
+        width: 35%;
+    }
+
+    .navbar-nav li a{
+        font-size: 1rem !important;
+    }
+
+     .image-nosotros{
+        width: 50% !important;
+    }
+}
+
+@media(min-width: 1024px) {
+    .image-nosotros{
+        width: 87% !important;
+    }
+}
+
+@media(min-width: 1025px){
+    .text-nosotros{
+        font-size: 1.5rem ;
+    }
+}
+
+@media (min-width: 1366px) {
+    /* Los estilos aquí contenidos solo se aplicarán a partir
+    del tamaño de pantalla indicado */
+    #logo-image{
+        width: 35%;
+    }
+
+    .navbar-nav li a{
+        font-size: 1.2rem !important;
+    }
+
+    .image-nosotros{
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 1440px) {
+    /* Los estilos aquí contenidos solo se aplicarán a partir
+    del tamaño de pantalla indicado */
+    #logo-image{
+        width: 25%;
+    }
+
+    .image-nosotros{
+        width: 96% !important;
+    }
+}
+
+*{
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+
+body{
+    background-image: url('public/storage/fondo.png');
+}
+
+.navBar{
+    background-color: rgba(200, 254, 241, 0.5);
+}
+
+.navbar-nav li a{
+    font-size: 1.2rem;
+    color: #30498d !important;
+}
+
+.seccion{
+    background-color: rgba(200, 254, 241, 0.5);
+}
+
+.row div details p{
+    margin-left: 8%;
+}
+
+.row div details summary{
+    font-size: 1.2rem;
+}
+
+.row div details{
+    padding: 0 !important;
+}
+
+
+
+
+
+
+
+
