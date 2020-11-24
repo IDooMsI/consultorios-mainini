@@ -34,13 +34,13 @@
         <div class="collapse navbar-collapse col-12 col-lg-7" id="navbarSupportedContent">
             <ul class="navbar-nav justify-content-around col-12 col-md-3 col-lg-12">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Especialidades</a>
+                    <a class="nav-link" href="#especialidades">Especialidades</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Solicitar Turno</a>
+                    <a class="nav-link" href="#turno">Solicitar Turno</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Ubicacion</a>
+                    <a class="nav-link" href="#ubicacion">Ubicacion</a>
                 </li>
                 <div class="row justify-content-around col-12 col-lg-4">
                     <li class="nav-item my-auto">
@@ -58,4 +58,5 @@
     </nav>
         @yield('content')
     </body>
+    <script src="{{ asset('js/wsp.js') }}"></script>
 </html>

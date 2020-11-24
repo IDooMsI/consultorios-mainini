@@ -72,6 +72,14 @@
     .image-nosotros{
         width: 100% !important;
     }
+
+    .image-especialidades{
+        width: 70%;
+    }
+
+    .image-turnos{
+        width: 62%;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -84,6 +92,7 @@
     .image-nosotros{
         width: 96% !important;
     }
+
 }
 
 *{
@@ -106,6 +115,7 @@ body{
 
 .seccion{
     background-color: rgba(200, 254, 241, 0.5);
+    color: #30498d !important;
 }
 
 .row div details p{
@@ -118,6 +128,7 @@ body{
 
 .row div details{
     padding: 0 !important;
+    margin-bottom: 6%;
 }
 
 
