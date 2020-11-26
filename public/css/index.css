@@ -1,5 +1,5 @@
 @media (max-width: 424px) {
-    /* Los estilos aquí contenidos solo se aplicarán desde
+    /* Los estilos aquí contenidos solo se aplicarán hasta
     del tamaño de pantalla indicado */
     #logo-image{
         width: 90%;
@@ -9,7 +9,7 @@
         font-size: 1rem !important;
     }
 
-    .h3{
+    .h3, h3{
         font-size: 1.5rem !important;
     }
 
@@ -41,14 +41,23 @@
         font-size: 1rem !important;
     }
 
-     .image-nosotros{
+    .image-nosotros{
         width: 50% !important;
     }
+
+    .redes-footer{
+        padding-top: 6% !important;
+    }
+
 }
 
 @media(min-width: 1024px) {
     .image-nosotros{
         width: 87% !important;
+    }
+
+     .redes-footer{
+        padding-top: 12% !important;
     }
 }
 
