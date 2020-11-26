@@ -181,11 +181,11 @@
     </div>
     <div class="col-12 col-lg-4 text-center">
         <h3>¿Como Llegar?</h3>
-        <iframe id="ubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d668.9809869751132!2d-58.272098980524625!3d-34.819168872294505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3297bd2e952fd%3A0xdc74622754ccd3b3!2sDr.%20Carlos%20Galli%20Mainini%20192%2C%20B1853%20Villa%20Vatteone%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1606182215067!5m2!1sen!2sar" width="419" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe class="mx-auto" id="ubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d668.9809869751132!2d-58.272098980524625!3d-34.819168872294505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3297bd2e952fd%3A0xdc74622754ccd3b3!2sDr.%20Carlos%20Galli%20Mainini%20192%2C%20B1853%20Villa%20Vatteone%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1606182215067!5m2!1sen!2sar" width="300" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
     <div class="col-12 col-lg-4 text-center">
         <h3>Seguinos</h3>
-        <div class="row justify-content-envenly" style="padding-top: 12%; justify-content: space-evenly">
+        <div class="row justify-content-envenly redes-footer" style="padding-top: 12%; justify-content: space-evenly">
             <a href=""><ion-icon name="logo-facebook" style="color: #30498D; font-size: 2rem"></ion-icon></a>
             <a href=""><ion-icon name="logo-instagram" style="color: #EB3C4D; font-size: 2rem"></ion-icon></a>
             <a href=""><ion-icon name="logo-whatsapp" style="color: #2DAF1D; font-size: 2rem"></ion-icon></a>
