@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
-
+        <title>Centro Mainini</title>
+        <link rel="Shortcut Icon" href="{{asset('storage/logo-sin-fondo-2.png')}}" type="image/x-icon" />
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,7 +23,7 @@
         @livewireStyles
 
         <!-- Scripts -->
-        <script src="{{ mix('js/app.js') }}" defer></script>
+        <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body class="font-sans antialiased" style="background-image:url({{asset('storage/fondo.png')}})">
       <nav class="navbar navbar-expand-lg navbar-light navBar">
